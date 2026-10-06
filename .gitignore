@@ -1,0 +1,15 @@
+node_modules
+.env
+.env.local
+.env.*.local
+launch.env
+verify-files
+contracts/artifacts
+contracts/cache
+contracts/typechain-types
+contracts/deployments/localhost.json
+contracts/deployments/keeper.json
+contracts/deployments/fork.json
+contracts/deployments/hardhat.json
+keeper/.state
+docs/LAUNCH.md

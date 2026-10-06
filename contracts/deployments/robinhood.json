@@ -1,0 +1,86 @@
+{
+  "network": "robinhood",
+  "chainId": 4663,
+  "roles": {
+    "admin": "0x0709108d13c850171f66AD01E619eE777038b503",
+    "guardian": "0x0709108d13c850171f66AD01E619eE777038b503",
+    "keeper": "0x11A0dB80E83F7CE1e34a5064AA9231e2F6Dbb861"
+  },
+  "markets": {
+    "TSLA": {
+      "token": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+      "feed": "0x4A1166a659A55625345e9515b32adECea5547C38",
+      "name": "Tesla"
+    },
+    "NVDA": {
+      "token": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+      "feed": "0x379EC4f7C378F34a1B47E4F3cbeBCbAC3E8E9F15",
+      "name": "NVIDIA"
+    },
+    "AAPL": {
+      "token": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+      "feed": "0x6B22A786bAa607d76728168703a39Ea9C99f2cD0",
+      "name": "Apple"
+    },
+    "PLTR": {
+      "token": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+      "feed": "0x820ABedFF239034956B7A9d2F0a331f9F075eB4c",
+      "name": "Palantir"
+    },
+    "META": {
+      "token": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+      "feed": "0x7C38C00C30BEe9378381E7B6135d7283356D71b1",
+      "name": "Meta"
+    }
+  },
+  "liquidityVaults": {
+    "TSLA": {
+      "vault": "0x63DF5F63bB2Dd8D6c392163e549e156894EBE79a",
+      "position": "0x0610798158C34bC9A02d10ca60f05ad78125623e",
+      "stock": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
+      "name": "Tesla"
+    },
+    "NVDA": {
+      "vault": "0x62Eff666654c8d39746b9Ad9a4c349AAE2529De2",
+      "position": "0xb0E8Edf5d3aAB2e926239acEdeef6224011f13eB",
+      "stock": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+      "name": "NVIDIA"
+    },
+    "AAPL": {
+      "vault": "0xee8905A2b4F6BFC896522dc669Cf328bDaEb3241",
+      "position": "0x34A771f6c113F9e0bd4EC48C146C0c8e512014A7",
+      "stock": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+      "name": "Apple"
+    },
+    "PLTR": {
+      "vault": "0x36654c8Cd3e7f0CE37628EaDbF3CfBb99Bb83518",
+      "position": "0x40C56100662138be28a2ae1C0Fc76170ef77bfca",
+      "stock": "0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A",
+      "name": "Palantir"
+    },
+    "META": {
+      "vault": "0xBe0edCBe9905bF3C3fAbE78a204d39689fFe38df",
+      "position": "0x3CF4c3e399Efa2bF17A40D7926001015CB90d948",
+      "stock": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
+      "name": "Meta"
+    }
+  },
+  "creditLines": {
+    "META": "0x79f1f261f0AB1401D4aCB7624e234055c6E14E85"
+  },
+  "timelock": "0xFeCEE6CCA5e77E79A0F8bA1925C47dd43A093967",
+  "block": 81740135,
+  "usdg": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+  "token": null,
+  "tokenSetter": "0x0709108d13c850171f66AD01E619eE777038b503",
+  "oracle": "0x3D6cA87f7Ab797E80D7e75Ec90332AdC660d0307",
+  "swapAdapter": "0xf9f761ACaba40f836a9Ab065c5DdcA2C270F0C0d",
+  "buyBurn": "0xBBC022cb394C4541F0F876386662e8618b2b449d",
+  "feeRouter": "0x1B0EC45d8eFa9119FA55cfD0706211d2d683Cc1F",
+  "registry": "0x9894b0d80C68014e23Aa0e7A62701c0f04cd7827",
+  "pendingTimelockAcceptances": [
+    "0x3D6cA87f7Ab797E80D7e75Ec90332AdC660d0307",
+    "0x9894b0d80C68014e23Aa0e7A62701c0f04cd7827",
+    "0xf9f761ACaba40f836a9Ab065c5DdcA2C270F0C0d"
+  ]
+}

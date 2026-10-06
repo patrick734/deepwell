@@ -1,0 +1,7 @@
+{
+  "name": "deepwell",
+  "private": true,
+  "scripts": {
+    "test": "cd contracts && npx hardhat test && cd ../keeper && npm test"
+  }
+}
